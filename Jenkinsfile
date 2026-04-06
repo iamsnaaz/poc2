@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-username/poc-app.git'
+                git 'https://github.com/iamsnaaz/poc2.git'
             }
         }
 
