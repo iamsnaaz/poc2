@@ -50,7 +50,7 @@ pipeline {
                 sh '''
                 docker stop poc-container || true
                 docker rm poc-container || true
-                docker run -d -p 8080:8080 --name poc-container $IMAGE_NAME:$TAG
+                docker run -d -p 8081:8080 --name poc-container $IMAGE_NAME:$TAG
                 '''
             }
         }
